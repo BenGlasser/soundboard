@@ -1,0 +1,199 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Main"
+    android:background="@drawable/pwnies">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/onezero"
+            android:layout_alignParentStart="true">
+
+            <Button
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Hack the Planet"
+                           android:id="@+id/hack_the_planet"
+                           android:layout_column="0"
+                           android:onClick="hackThePlanet"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:textSize="40dp"
+                android:typeface="normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Its Working!"
+                android:id="@+id/its_working"
+                android:layout_below="@+id/onezero"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/onezero"
+                android:onClick="itsWorking"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:textSize="40dp"
+                android:typeface="normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Smartest Man!"
+                android:id="@+id/smartest_man"
+                android:onClick="smart"
+                android:layout_below="@+id/its_working"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/its_working"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:textSize="40dp"
+                android:typeface="normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ones and Zeros"
+                android:id="@+id/onezero"
+                android:onClick="oneZero"
+                android:layout_below="@+id/hack_the_planet"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/hack_the_planet"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:textSize="40dp"
+                android:typeface="normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wah Wah"
+                android:id="@+id/wah"
+                android:layout_below="@+id/giveup"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/giveup"
+                android:onClick="wah"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:textSize="40dp"
+                android:typeface="normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Giveup"
+                android:id="@+id/giveup"
+                android:layout_below="@+id/khaaan"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/khaaan"
+                android:onClick="giveup"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:textSize="40dp"
+                android:typeface="normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khaaaaaaaan!"
+                android:id="@+id/khaaan"
+                android:layout_below="@+id/nooo"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/nooo"
+                android:onClick="khaaan"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:textSize="40dp"
+                android:typeface="normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nooooooo"
+                android:id="@+id/nooo"
+                android:layout_below="@+id/charlie"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/charlie"
+                android:onClick="nooo"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:textSize="40dp"
+                android:typeface="normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Charlie"
+                android:id="@+id/charlie"
+                android:onClick="charlie"
+                android:layout_toEndOf="@+id/hack_the_planet"
+                android:layout_below="@+id/batman"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/batman"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:textSize="40dp"
+                android:typeface="normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Batman"
+                android:id="@+id/batman"
+                android:onClick="batman"
+                android:layout_below="@+id/smartest_man"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/smartest_man"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:textSize="40dp"
+                android:typeface="normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Red Box"
+                android:id="@+id/red_box"
+                android:layout_below="@+id/onezero"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/onezero"
+                android:onClick="red"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:textSize="40dp"
+                android:typeface="normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blue Box"
+                android:id="@+id/blue_box"
+                android:layout_below="@+id/onezero"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/onezero"
+                android:onClick="blue"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:textSize="40dp"
+                android:typeface="normal" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+<!-- From: file:/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/layout/activity_main.xml -->

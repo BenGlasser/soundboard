@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res" >
+            <file
+                name="icon"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/drawable/icon.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ponies"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/drawable/ponies.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="pwnies"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/drawable/pwnies.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/drawable-hdpi/icon.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="pwnies"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/drawable-hdpi/pwnies.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/drawable-mdpi/icon.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="pwnies"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/drawable-mdpi/pwnies.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/drawable-xhdpi/icon.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="pwnies"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/drawable-xhdpi/pwnies.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/drawable-xxhdpi/icon.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="pwnies"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/drawable-xxhdpi/pwnies.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="batman"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/raw/batman.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="blue"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/raw/blue.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="charlie2"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/raw/charlie2.ogg"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="giveup"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/raw/giveup.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="hack_the_planet"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/raw/hack_the_planet.ogg"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="its_working"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/raw/its_working.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="khaaan"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/raw/khaaan.wav"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="nooo"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/raw/nooo.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="onezero"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/raw/onezero.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="redboxquarter"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/raw/redboxquarter.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="smartman"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/raw/smartman.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="wah"
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/raw/wah.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >Dev Soundboard
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+            </file>
+            <file
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- Customize your theme here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/main/res/values-w820dp/dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+        </source>
+        <source path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/build/generated/res/rs/release" />
+        <source path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/bglasser/AndroidStudioProjects/JavaSoundBoard/app/src/release/res" />
+    </dataSet>
+
+</merger>
